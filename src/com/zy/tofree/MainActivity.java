@@ -11,4 +11,10 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 	}
 
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		super.onDestroy();
+	}
+
 }
