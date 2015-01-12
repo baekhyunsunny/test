@@ -15,6 +15,7 @@
         <activity
             android:name="com.zy.tofree.MainActivity"
             android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
             android:windowSoftInputMode="adjustPan" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,6 +23,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity android:name="com.zy.tofree.TabActivityHome"/>
+        <activity android:name="com.zy.tofree.TabActivityShopping"/>
+        <activity android:name="com.zy.tofree.TabActivityUserCenter"/>
+        <activity android:name="com.zy.tofree.TabActivitySetting"/>
         
     </application>
 
